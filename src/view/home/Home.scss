@@ -1,0 +1,22 @@
+.home{
+    .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        perspective: 500px;
+        .hacker {
+            transform: translateY(0px) translateZ(0px);
+            width: 80%;
+        }
+        .spaceman {
+            display: flex;
+            justify-content: center;
+            .spaceman-img {
+                position: absolute;
+                top: 1500px;
+                width: 3000px;
+            }
+        }
+    }
+}
