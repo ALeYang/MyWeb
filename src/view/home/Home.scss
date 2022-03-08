@@ -1,4 +1,8 @@
 .home{
+    .background{
+        width: 100%;
+        position: fixed;
+    }
     .head {
         width: 100%;
         display: flex;
@@ -14,8 +18,8 @@
             justify-content: center;
             .spaceman-img {
                 position: absolute;
-                top: 1500px;
-                width: 3000px;
+                top: 500px;
+                width: 800px;
             }
         }
     }
